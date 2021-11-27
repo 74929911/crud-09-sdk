@@ -5,7 +5,6 @@ import { getAuth, signOut } from "firebase/auth";
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
 
 import { Container, Button } from "react-bootstrap";
-
 import AgregarTarea from "./AgregarTarea";
 import ListadoTareas from "./ListadoTareas";
 const auth = getAuth(firebaseApp);
